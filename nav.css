@@ -1,0 +1,524 @@
+* {
+	scroll-behavior: smooth;
+}
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+/* Navbar */
+@media (min-width: 990px)
+{
+	#navbar {
+	  background-color: #182130;
+	  color: white;
+	  z-index: 999;
+	  position: fixed;
+	  top: -90px;
+	  width: 100%;
+	  text-align: center;
+	  display: block;
+	  transition: 0.3s;
+	}
+
+	#navbar a {
+	  text-align: center;
+	  display: inline-block;
+	  color: white;
+	  padding: 15px;
+	  margin-top: 20px;
+	  margin-right: 20px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+
+	#navbar a:hover {
+	  background-color: #182130;
+	  color: #1ABC9C;
+	}
+	#navbar img {
+		float: left;
+		width: 50px;
+		height: 50px;
+		margin-top: 20px;
+		cursor: pointer;
+	}
+
+	.navbar1 {
+		text-align: center;
+		top: 0px;
+		width: 100%;
+		height: auto;
+		background: #182130;
+	}
+	.navbar1 img {
+		width: 150px;
+		height: 150px;
+		margin: 20px 10px;
+		border-radius: 50%;
+		cursor: pointer;
+		transition: .5s;
+	}
+	.navbar1 img:hover {
+		width: 150px;
+		height: 150px;
+		margin: 20px 10px;
+		transform: scale(1.2);
+	}
+
+	.navbar1 ul li {
+		position: relative;
+		display: inline-block;
+		font-size: 20px;
+		word-spacing: 10px;
+		margin: 10px 20px;
+		color: white;
+		text-transform: uppercase ;
+		transition: 1s;
+	}
+	.navbar1 ul li:hover {
+		position: relative;
+		display: inline-block;
+		font-size: 20px;
+		word-spacing: 10px;
+		margin: 10px 20px;
+		color: #1ABC9C;
+		text-transform: uppercase ;
+		border-bottom: 1px solid #1ABC9C;
+	}
+	.navbar1 .fa-twitter {
+		color: white;
+		margin: 10px 10px;
+		padding: 10px;
+		border: 1px solid white;
+		border-radius: 50%;
+		transition: 1s;
+	}
+	.navbar1 .fa-twitter:hover {
+		color: #1ABC9C;
+		margin: 10px 10px;
+		padding: 10px;
+		border: 1px solid #1ABC9C;
+		border-radius: 50%;
+		transform: scale(1.2);
+		box-shadow: 1px 1px 10px #1ABC9C;
+	}
+	.navbar1 .fa-instagram {
+		color: white;
+		margin: 10px 10px;
+		padding: 10px 11px;
+		border: 1px solid white;
+		border-radius: 50%;
+		transition: 1s;
+	}
+	.navbar1 .fa-instagram:hover {
+		color: #1ABC9C;
+		margin: 10px 10px;
+		padding: 10px 11px;
+		border: 1px solid #1ABC9C;
+		border-radius: 50%;
+		transform: scale(1.2);
+		box-shadow: 1px 1px 10px #1ABC9C;
+	}
+	.navbar1 .fa-whatsapp {
+		color: white;
+		margin: 10px 10px;
+		padding: 10px 11px;
+		border: 1px solid white;
+		border-radius: 50%;
+		transition: 1s;
+	}
+	.navbar1 .fa-whatsapp:hover {
+		color: #1ABC9C;
+		margin: 10px 10px;
+		padding: 10px 11px;
+		border: 1px solid #1ABC9C;
+		border-radius: 50%;
+		transform: scale(1.2);
+		box-shadow: 1px 1px 10px #1ABC9C;
+	}
+	.navbar1 .fa-envelope {
+		color: white;
+		margin: 10px 10px;
+		padding: 10px;
+		border: 1px solid white;
+		border-radius: 50%;
+		transition: 1s;
+	}
+	.navbar1 .fa-envelope:hover {
+		color: #1ABC9C;
+		margin: 10px 10px;
+		padding: 10px;
+		border: 1px solid #1ABC9C;
+		border-radius: 50%;
+		transform: scale(1.2);
+		box-shadow: 1px 1px 10px #1ABC9C;
+	}
+	/* End Navbar */
+
+	/* Home */
+	.jumbotron {
+		border-radius: 0px;
+		padding-top: -300px !important;
+	}
+	.bg-jumbotron {
+		background-image: url(img/glenn-carstens-peters-6rkJD0Uxois-unsplash.jpg);
+		/*background-attachment: fixed;*/
+		background-size: cover;
+		text-align: center;
+	}
+	.bg-jumbotron img {
+		width: 450px;
+		height: 300px;
+	}
+	.bg-jumbotron h1 {
+		color: white;
+	 	font-size: 3.5rem;
+	  	font-weight: 300;
+	  	line-height: 1.2;
+	}
+	.bg-jumbotron p {
+		color: white;
+		font-size: 1.25rem;
+  		font-weight: 300;
+	}
+	.bg-jumbotron .btn-synon {
+		font-size: 15px;
+		background-color: transparent;
+		color:white;
+		border:3px solid #303133;
+		border-radius: 5px;
+		font-family: 'Poppins', sans-serif;
+		text-transform: uppercase;
+		transition: 1s;
+	}
+	.bg-jumbotron .btn-synon:hover {
+		background-color: white;
+		color:#303133;
+		border:3px solid #303133;
+		border-radius: 5px;
+		font-family: 'Poppins', sans-serif;
+		text-transform: uppercase;
+		transform: scale(1.1);
+	}
+	/* End Home */
+
+	/* First Content */
+	.first-content {
+		background-color: white;
+		text-align: center;
+	}
+	.first-content img {
+		width: 450px;
+		height: 150px;
+		margin-bottom: 30px;
+	}
+	.first-content h1 {
+		color: black;
+		font-family: 'PT Sans Narrow', sans-serif;
+		margin-bottom: 25px;
+	}
+	.first-content h5 {
+		color: black;
+		font-size: 20px;
+		font-family:sans-serif;
+		margin-bottom: 30px; 
+	}
+	.first-content p {
+		color: grey;
+		font-size: 17px;
+		margin-bottom: 30px;
+	}
+	.first-content .btn-synon {
+		font-size: 15px;
+		background-color: transparent;
+		color:#303133;
+		border:3px solid #303133;
+		border-radius: 5px;
+		font-family: 'Poppins', sans-serif;
+		text-transform: uppercase;
+		transition: inherit 1s;
+		margin-bottom: 40px;
+	}
+	.first-content .btn-synon:hover {
+		background-color: #303133;
+		color:white;
+		border:3px solid #303133;
+		border-radius: 5px;
+		font-family: 'Poppins', sans-serif;
+		text-transform: uppercase;
+	}
+	/* End First Content */
+
+	/* Produk */
+	.produk {
+		background-color: #182130;
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+	.produk h1 {
+		color: white;
+		padding-top: 40px;
+		padding-bottom: 20px;
+		font-size: 80px;
+  		line-height: 1.2;
+  		text-transform: uppercase;
+  		font-family: 'Concert One', cursive;
+  		-webkit-text-stroke-color:red;
+  		-webkit-text-stroke-width:2px;
+	}
+	.produk h5 {
+		color: white;
+		font-size: 20px;
+		font-family:sans-serif;
+		margin-bottom: 30px; 
+	}
+	.produk p {
+		color: white;
+		font-size: 1.25rem;
+  		font-weight: 300;
+	}
+	.produk .card {
+		margin-bottom: 30px;
+		background-color: #1ABC9C;
+		border: 1px solid white;
+	}
+	.produk .card-img-top {
+		top: 0px;
+		width: 100%;
+		height: 100%;
+	}
+	.produk .card-body {
+		color: white;
+	}
+	.produk .card .btn-synon {
+		font-size: 18px;
+		font-weight: normal;
+		color: #303133;
+		background-color: transparent;
+		border: 1px solid white; 
+		border-radius: 5px;
+		transition: .5s;
+	}
+	.produk .card .btn-synon:hover {
+		color: #303133;
+		background-color: white;
+		border: 1px solid white;
+		border-radius: 5px;
+	}
+	.produk .btn-synon {
+		font-size: 30px;
+		font-weight: bold;
+		width: 100%;
+		color: #303133;
+		background-color: #1ABC9C;
+		border: 1px solid white; 
+		border-radius: 5px;
+		margin-bottom: 30px;
+		transition: inherit .5s;
+	}
+	.produk .btn-synon:hover {
+		color: #303133;
+		background-color: white;
+		border: 1px solid white;
+		border-radius: 5px;
+	}
+	.produk .modal-title {
+		color: #303133;
+	}
+	.produk .modal-body img {
+		width: 100%;
+		height: 100%;
+	}
+	.produk .modal-body h5 {
+		color: #303133;
+		text-align: center;
+		margin: 20px;
+	}
+	.produk .modal-body p {
+		font-size: 18px;
+		color: #303133;
+		text-align: left;
+	}
+	/* End Produk */
+
+	/* About */
+	.about {
+		background-image: url(img/content-pixie-l6I8jpzKJQU-unsplash.jpg);
+		background-size: cover;
+		width: 100%;
+		height: auto;
+		text-align: center;
+		padding-top: -20px;
+	}
+	.about h1 {
+		color: #303133;
+		padding-top: 40px;
+		padding-bottom: 20px;
+		font-size: 80px;
+  		line-height: 1.2;
+  		text-transform: uppercase;
+  		font-family: 'Concert One', cursive;
+   		-webkit-text-stroke-color:springgreen;
+  		-webkit-text-stroke-width:2px;
+	}
+	.about h5 {
+		color: black;
+		font-size: 20px;
+		font-family:sans-serif;
+		margin-bottom: 40px; 
+	} 
+	/* End About */
+
+	/* Contact About */
+	.about .about-contact h2 {
+		color: #303133;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 35px;
+  		line-height: 1.2;
+  		font-family: 'Concert One', cursive;
+	}
+	.about .about-contact h5 {
+		color: black;
+		font-size: 18px;
+		font-family:sans-serif;
+		margin-bottom: 20px;
+	}
+	.about .about-contact p {
+		font-size: 16px;
+		color: black;
+		text-align: left;
+	}
+	.about .about-contact a {
+		font-size: 16px;
+		color: black;
+		text-decoration: none;
+	}
+	.about .about-contact .fa-phone-alt {
+		color: #1ABC9C ;
+		background-color: #283747;
+		margin:5px;
+		padding: 10px;
+		margin-left: -50px;
+		border-radius: 50%;
+	}
+	.about .about-contact .fa-mobile-alt {
+		color: #1ABC9C ;
+		background-color: #283747;
+		padding: 10px 13px 10px 13px;
+		margin-left: -40px;
+		margin-right: 5px;
+		border-radius: 50%;
+	}
+	.about .about-contact .fa-map-marker-alt {
+		color: #1ABC9C ;
+		background-color: #283747;
+		padding: 10px 12px 10px 12px;
+		margin-left: -40px;
+		margin-right: 5px;
+		border-radius: 50%;
+	}
+	/* End About Contact */
+
+	/* About Clock */
+	.about .about-clock h2 {
+		color: #303133;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 35px;
+  		line-height: 1.2;
+  		font-family: 'Concert One', cursive;
+	}
+	.about .about-clock h5 {
+		color: black;
+		font-size: 18px;
+		font-family:sans-serif;
+		margin-bottom: 20px;
+	}
+	.about .about-clock p {
+		font-size: 16px;
+		color: black;
+		text-align: left;
+	}
+	.about .about-clock .fa-clock {
+		color: #1ABC9C ;
+		background-color: #283747;
+		padding: 10px ;
+		margin-left: -40px;
+		margin-right: 5px;
+		border-radius: 50%;
+	}
+	/* End About Clock */
+
+	/* About Order */
+	.about .about-order h2 {
+		color: #303133;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 35px;
+  		line-height: 1.2;
+  		font-family: 'Concert One', cursive;
+	}
+	.about .about-order h5 {
+		color: black;
+		font-size: 18px;
+		font-family:sans-serif;
+		margin-bottom: 20px;
+	}
+	.about .about-order p {
+		font-size: 16px;
+		color: black;
+		text-align: left;
+	}
+	.about .about-order .fa-box-open {
+		color: #1ABC9C ;
+		background-color: #283747;
+		padding: 10px 8px 10px 8px;
+		margin-left: -40px;
+		margin-right: 5px;
+		border-radius: 50%;
+	}
+	.about .about-order .fa-wallet {
+		color: #1ABC9C ;
+		background-color: #283747;
+		padding: 10px;
+		margin-left: -40px;
+		margin-right: 5px;
+		border-radius: 50%;
+	}
+	/* End About Order */
+
+	/* Others */
+	.others {
+		background-color: white;
+		width: 100%;
+		height: all ;
+		text-align: center;
+	}
+	.others img {
+		width: 100%;
+		height: 100%;
+		padding:20px;
+	}
+
+	.footer {
+		background-color: #182130;
+		width: 100%;
+		height: auto;
+		bottom: 0px;
+	}
+	.footer h5 {
+		color: white;
+		font-size: 20px;
+
+	}
+
+
+	/* End Others */
+}
